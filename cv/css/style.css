@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    background-color: #f3ece6;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF8C9E;
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #B4D6CD;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .splash {
+    background: url('../images/background_Image2.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  h1 {
+    color: #5b98c6;
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+  }
+
+  .headshot {
+    border-radius: 47%;
+  }
+
+  .address {
+    background-color: #FFC6C6;
+    color: #424242;
+  }
+
+  hr {
+    border: 3px solid;
+  }
+
+  h2 {
+    color: #a1d5f1;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+  }
+
+  .edu_font {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .light_background {
+    background-color: #F9F5F6;
+  }
+
+  .ul_style ul {
+    list-style-type: square;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+
+  dt {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  dd {
+    margin: 0;
+  }
+
+  a {
+    color: #f7438e;
+    text-decoration: none;
+    font-size: 2;
+  }
+
+  a:hover {
+    color: #FFDB5C;
+    font-size: 2;
+
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    background-color: #EAE4DD; 
+    border: 1px solid #B99470; 
+    border-radius: 5px; 
+    padding: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .projPic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .one-col input {
+    color: red;
+  }
+
+  .one-col input[type="text"], 
+  .one-col input[type="email"] {       
+    color: #131842; 
+}
